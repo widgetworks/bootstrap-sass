@@ -1,39 +1,49 @@
 // Mixins
 // --------------------------------------------------
 
+/**
+ * 2014-07-01
+ * 
+ * For some reason Sprockets can't resolve these includes when
+ * they are listed as just `@import "mixings/hide-text";`.
+ * 
+ * These includes have all been prepended with `stylesheets/bootstrap/`
+ * so Sprockets can resolve them from the top-level path.
+ */
+
 // Utilities
-@import "mixins/hide-text";
-@import "mixins/opacity";
-@import "mixins/image";
-@import "mixins/labels";
-@import "mixins/reset-filter";
-@import "mixins/resize";
-@import "mixins/responsive-visibility";
-@import "mixins/size";
-@import "mixins/tab-focus";
-@import "mixins/text-emphasis";
-@import "mixins/text-overflow";
-@import "mixins/vendor-prefixes";
+@import "stylesheets/bootstrap/mixins/hide-text";
+@import "stylesheets/bootstrap/mixins/opacity";
+@import "stylesheets/bootstrap/mixins/image";
+@import "stylesheets/bootstrap/mixins/labels";
+@import "stylesheets/bootstrap/mixins/reset-filter";
+@import "stylesheets/bootstrap/mixins/resize";
+@import "stylesheets/bootstrap/mixins/responsive-visibility";
+@import "stylesheets/bootstrap/mixins/size";
+@import "stylesheets/bootstrap/mixins/tab-focus";
+@import "stylesheets/bootstrap/mixins/text-emphasis";
+@import "stylesheets/bootstrap/mixins/text-overflow";
+@import "stylesheets/bootstrap/mixins/vendor-prefixes";
 
 // Components
-@import "mixins/alerts";
-@import "mixins/buttons";
-@import "mixins/panels";
-@import "mixins/pagination";
-@import "mixins/list-group";
-@import "mixins/nav-divider";
-@import "mixins/forms";
-@import "mixins/progress-bar";
-@import "mixins/table-row";
+@import "stylesheets/bootstrap/mixins/alerts";
+@import "stylesheets/bootstrap/mixins/buttons";
+@import "stylesheets/bootstrap/mixins/panels";
+@import "stylesheets/bootstrap/mixins/pagination";
+@import "stylesheets/bootstrap/mixins/list-group";
+@import "stylesheets/bootstrap/mixins/nav-divider";
+@import "stylesheets/bootstrap/mixins/forms";
+@import "stylesheets/bootstrap/mixins/progress-bar";
+@import "stylesheets/bootstrap/mixins/table-row";
 
 // Skins
-@import "mixins/background-variant";
-@import "mixins/border-radius";
-@import "mixins/gradients";
+@import "stylesheets/bootstrap/mixins/background-variant";
+@import "stylesheets/bootstrap/mixins/border-radius";
+@import "stylesheets/bootstrap/mixins/gradients";
 
 // Layout
-@import "mixins/clearfix";
-@import "mixins/center-block";
-@import "mixins/nav-vertical-align";
-@import "mixins/grid-framework";
-@import "mixins/grid";
+@import "stylesheets/bootstrap/mixins/clearfix";
+@import "stylesheets/bootstrap/mixins/center-block";
+@import "stylesheets/bootstrap/mixins/nav-vertical-align";
+@import "stylesheets/bootstrap/mixins/grid-framework";
+@import "stylesheets/bootstrap/mixins/grid";
