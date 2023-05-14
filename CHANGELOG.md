@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.3-wiwo.1
+
+* (Widget Works) add `$wwbs-enable-grid` variable; set to false to disable the default bootstrap grid and column classes.
+
 ## 3.4.3 (non-ruby only)
 
 * Fix malformed `math.div` expressions. [#1225](https://github.com/twbs/bootstrap-sass/pull/1225)
