@@ -23,7 +23,7 @@
   }
 
   > hr {
-    border-top-color: darken($jumbotron-bg, 10%);
+    border-top-color: legacy-darken($jumbotron-bg, 10%);
   }
 
   .container &,
