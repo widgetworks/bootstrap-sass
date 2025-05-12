@@ -5,12 +5,12 @@ $bootstrap-sass-asset-helper: false !default;
 // --------------------------------------------------
 
 @function legacy-lighten($base_color, $pct) {
-  $lightness: 100 * $pct;
+  $lightness: ($pct / 100%) * 100;
   @return hsl(from $base_color h s calc(l + $lightness));
 }
 
 @function legacy-darken($base_color, $pct) {
-  $lightness: 100 * $pct;
+  $lightness: ($pct / 100%) * 100;
   @return hsl(from $base_color h s calc(l - $lightness));
 }
 
