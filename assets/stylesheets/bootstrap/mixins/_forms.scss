@@ -55,7 +55,7 @@
 // Example usage: change the default blue border and shadow to white for better
 // contrast against a dark gray background.
 @mixin form-control-focus($color: $input-border-focus) {
-  $color-rgba: color.adjust($color, $alpha: .6);
+  $color-rgba: color.change($color, $alpha: 0.6);
   &:focus {
     border-color: $color;
     outline: 0;
